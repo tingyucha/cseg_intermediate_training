@@ -66,6 +66,8 @@ def fahrenheit_to_celcius(fahrenheit):
 def celcius_to_kelvin(celcius):
     return celcius + 273.15
 
+def kelvin_to_celcius(kelvin):
+    return kelvin - 273.15
 
 if __name__ == "__main__":
     import argparse
