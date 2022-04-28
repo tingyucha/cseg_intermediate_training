@@ -40,7 +40,7 @@ Functions will include:
 
 =================================================================
     Task 3:
-        Merge `feature1` into main.  Then merge `feature2` into main. 
+        Merge `feature1` into main.  Then merge `feature2` into main.
 
 =================================================================
     Task 4:
@@ -63,8 +63,8 @@ def fahrenheit_to_celcius(fahrenheit):
     return (fahrenheit - 32) * 5/9
 
 
-def place_holder():
-    pass
+def celcius_to_kelvin(celcius):
+    return celcius + 273.15
 
 
 if __name__ == "__main__":
@@ -85,4 +85,3 @@ if __name__ == "__main__":
     #3.  uncomment these lines when f_to_k and k_to_f are done
     # print(f"{val}°F = {fahrenheit_to_kelvin(val):.2f} K")
     # print(f"{val} K = {kelvin_to_fahrenheit(val):.2f}°F")
-
